@@ -1,0 +1,8 @@
+04f0e843dac33131d0aa170e3eef05ec *DESCRIPTION
+383d7347a92c4534945e01504f91e492 *NAMESPACE
+6c3cdd62706f25ef26c08ad598fafc12 *NEWS
+4507fdac90c6e72e839f1ed2c4c120a2 *R/emd.R
+f1fe85453e0d752fcbaa9e62b161e63e *man/emd.Rd
+a0521dbb7de5cd904c6634794e038b7b *src/emd-r.c
+703cd673de0f4c58551bd02c7330be9a *src/emd-rubner.c
+8ce25c69f3e9a0136bb3e4a6a26cf3e0 *src/emd-rubner.h
