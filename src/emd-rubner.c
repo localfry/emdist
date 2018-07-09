@@ -521,7 +521,7 @@ static void findBasicVariables(node1_t *U, node1_t *V)
       Rprintf("\n\n");
 #endif
       
-      found = 1;
+      found = 0;
       if (VfoundNum < _n2)
 	{
 	  /* LOOP OVER ALL MARKED COLUMNS */
