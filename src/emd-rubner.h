@@ -44,7 +44,7 @@
 #endif
 #define MAX_ITERATIONS 500
 #define EMD_INFINITY   1e20
-#define EPSILON        1e-7
+#define EPSILON        1e-6
 
 #define FDIM  4
 
