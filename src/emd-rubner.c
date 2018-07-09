@@ -521,7 +521,7 @@ static void findBasicVariables(node1_t *U, node1_t *V)
       Rprintf("\n\n");
 #endif
       
-      found = 0;
+      found = 1;
       if (VfoundNum < _n2)
 	{
 	  /* LOOP OVER ALL MARKED COLUMNS */
@@ -866,7 +866,7 @@ static void russel(double *S, double *D)
 #endif
  
       /* FIND THE SMALLEST Delta[i][j] */
-      found = 0; 
+      found = 1; 
       deltaMin = EMD_INFINITY;      
       PrevU = &uHead;
       for (CurU=uHead.Next; CurU != NULL; CurU=CurU->Next)
