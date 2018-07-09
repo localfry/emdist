@@ -866,7 +866,7 @@ static void russel(double *S, double *D)
 #endif
  
       /* FIND THE SMALLEST Delta[i][j] */
-      found = 1; 
+      found = 0; 
       deltaMin = EMD_INFINITY;      
       PrevU = &uHead;
       for (CurU=uHead.Next; CurU != NULL; CurU=CurU->Next)
