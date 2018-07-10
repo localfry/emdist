@@ -849,6 +849,7 @@ static void russel(double *S, double *D)
   for(i=0; i < _n1 ; i++)
     for(j=0; j < _n2 ; j++)
 	MAT(Delta, i, j) = MAT(_C, i, j) - Ur[i].val - Vr[j].val;
+  printf("Hello, World\n");
 
   /* FIND THE BASIC VARIABLES */
   do
